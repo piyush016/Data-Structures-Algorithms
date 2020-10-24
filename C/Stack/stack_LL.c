@@ -50,6 +50,7 @@ void pop() // We will change the 2nd last element link to NULL thus it won't be 
     }
     else if(count == 1) //For popping the 1st element (special case)
     {
+        printf("[-] Deleted Element: %d\n",head->data);
         free(prev); //deleting the node
         head = NULL; //Tells head is pointing nowhere
         count = 0; //Number of elements are 0
