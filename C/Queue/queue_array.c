@@ -60,7 +60,7 @@ void dequeue()
     }
     else
     {
-        printf("[+] Deleted element: %d.\n",array[front]);
+        printf("[-] Deleted element: %d.\n",array[front]);
         front++;
         return;
     }
@@ -76,7 +76,7 @@ void isFront()
 
     else
     {
-        printf("Front Element: %d\n", array[front]);
+        printf("[+] Front Element: %d\n", array[front]);
         return;
     }
 }
@@ -90,7 +90,7 @@ void isRear()
 
     else
     {
-        printf("Rear Element: %d\n", array[rear]);
+        printf("[+] Rear Element: %d\n", array[rear]);
         return;
     }
 }
