@@ -50,7 +50,7 @@ void pop() //Popping the element from the stack
 
     else //Popping the element from the stack
     {
-        printf("[+] Popped element: %d\n", array[top]);
+        printf("[-] Popped element: %d\n", array[top]);
         top--;
         return;
     }
