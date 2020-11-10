@@ -46,7 +46,7 @@ void insert(int x) //Same as insertion program
 
 void print() //Same as insertion program
 {
-    struct Node *temp = head;;
+    struct Node *temp = head;
     while (temp != NULL)
     {
         printf("%d\t", temp->data);
