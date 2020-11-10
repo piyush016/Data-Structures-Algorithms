@@ -57,7 +57,7 @@ void print() //Same as insertion program
 
 int main()
 {
-    int num, option;
+    int option;
     printf("*** Welcome to Linked List Deletion Program ***\n");
 
     insert(1);
